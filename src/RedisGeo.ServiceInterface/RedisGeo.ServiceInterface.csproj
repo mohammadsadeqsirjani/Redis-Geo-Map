@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>RedisGeo.ServiceInterface</AssemblyName>
+    <PackageId>RedisGeo.ServiceInterface</PackageId>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../RedisGeo.ServiceModel/RedisGeo.ServiceModel.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ServiceStack" Version="5.*" />
+    <PackageReference Include="ServiceStack.Interfaces" Version="5.*" />
+    <PackageReference Include="ServiceStack.Text" Version="5.*" />
+    <PackageReference Include="ServiceStack.Client" Version="5.*" />
+    <PackageReference Include="ServiceStack.Common" Version="5.*" />
+    <PackageReference Include="ServiceStack.Redis" Version="5.*" />
+  </ItemGroup>
+
+</Project>
